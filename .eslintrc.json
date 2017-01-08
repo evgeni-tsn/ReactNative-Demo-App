@@ -1,0 +1,19 @@
+{
+  "extends": "standard",
+  "installedESLint": true,
+  "plugins": [
+    "standard",
+    "promise",
+    "react"
+  ],
+  "env": {
+    "node": true
+  },
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "rules": {
+    "react/jsx-uses-vars": [2]
+  }
+}
